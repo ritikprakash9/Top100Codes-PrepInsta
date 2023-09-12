@@ -15,6 +15,7 @@ vector<int> factor(int n)
 
     return ans;
 }
+
 bool isPerfect(int n)
 {
     vector<int> divisor = factor(n);
